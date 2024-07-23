@@ -10,7 +10,7 @@ const Login = () => {
     console.log(username, password);
 
     // login logic here
-    fetch('https://alx-final-be.onrender.com/users/login', {
+    fetch('https://alx-final-project-be.onrender.com/users/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

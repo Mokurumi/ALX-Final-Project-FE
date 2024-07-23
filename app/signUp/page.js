@@ -13,7 +13,7 @@ const SignUp = () => {
       return;
     }
     console.log(username, email, password);
-    fetch('https://alx-final-be.onrender.com/users/register', {
+    fetch('https://alx-final-project-be.onrender.com/users/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
